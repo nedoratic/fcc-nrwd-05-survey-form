@@ -15,7 +15,7 @@
             </header>
             <form id="survey-form" action="https://register-demo.freecodecamp.org" method="post">
                 <div class="form-section">
-                    <label for="name" id="name-label">Name:</label>
+                    <label for="name" id="name-label"><h2>Name:</h2></label>
                     <input
                         type="text"
                         id="name"
@@ -25,7 +25,7 @@
                     >
                 </div>
                 <div class="form-section">
-                    <label for="email" id="email-label">Email:</label>
+                    <label for="email" id="email-label"><h2>Email:</h2></label>
                     <input
                         type="email"
                         id="email"
@@ -35,7 +35,7 @@
                     >
                 </div>
                 <div class="form-section">
-                    <label for="number" id="number-label">Age (Years):</label>
+                    <label for="number" id="number-label"><h2>Age (Years):</h2></label>
                     <input
                         type="number"
                         id="number"
@@ -47,7 +47,7 @@
                     >
                 </div>
                 <div class="form-section">
-                    <label for="education" id="education-label">What is your highest education completed?</label>
+                    <label for="education" id="education-label"><h2>What is your highest education completed?</h2></label>
                     <select name="education" id="dropdown">
                         <option disabled selected value>Please select one</option>
                         <option value="high-school">High School Diploma or equivalent</option>
@@ -59,7 +59,7 @@
                     </select>
                 </div>
                 <div class="form-section">
-                    <label for="seniority" id="seniority-label">How long have you been working for our company?</label>
+                    <label for="seniority" id="seniority-label"><h2>How long have you been working for our company?</h2></label>
                     <select name="seniority" id="dropdown">
                         <option disabled selected value>Please select one</option>
                         <option value="">Less than 1 year</option>
@@ -68,6 +68,51 @@
                         <option value="">6-9 years</option>
                         <option value="">10 years or more</option>
                     </select>
+                </div>
+                <div class="form-section">
+                    <h2>How satisfied are you with the overall work environment at our company?</h2>
+
+                    <input
+                        type="radio"
+                        id="very-satisfied"
+                        name="satisfaction"
+                        value="very-satisfied"
+                    >
+                    <label for="very-satisfied">Very Satisfied</label>
+
+                    <input
+                    type="radio"
+                    id="somewhat-satisfied"
+                    name="satisfaction"
+                    value="somewhat-satisfied"
+                    >
+                    <label for="somewhat-satisfied">Somewhat Satisfied</label>
+
+                    <input
+                    type="radio"
+                    id="neutral-satisfaction"
+                    name="satisfaction"
+                    value="neutral-satisfaction"
+                    checked
+                    >
+                    <label for="neutral-satisfaction">Neutral</label>
+
+                    <input
+                    type="radio"
+                    id="somewhat-dissatisfied"
+                    name="satisfaction"
+                    value="somewhat-dissatisfied"
+                    >
+                    <label for="somewhat-dissatisfied">Somewhat dissatisfied</label>
+
+                    <input
+                    type="radio"
+                    id="very-dissatisfied"
+                    name="satisfaction"
+                    value="very-dissatisfied"
+                    >
+                    <label for="very-dissatisfied">Very dissatisfied</label>
+
                 </div>
             </form>
         </div> 
