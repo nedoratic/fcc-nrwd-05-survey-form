@@ -32,3 +32,21 @@ body {
     padding-bottom: 20px;
 }
 
+
+#name-label,
+#email-label,
+#number-label,
+#education-label,
+#seniority-label {
+    display: block;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#seniority,
+#additional-comments,
+#submit {
+    width: 100%;
+}
