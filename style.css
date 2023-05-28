@@ -57,3 +57,7 @@ body {
     border-radius: 3px;
 }
 
+input::placeholder {
+    color: rgb(17, 27, 51);
+}
+
