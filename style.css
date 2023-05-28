@@ -26,3 +26,9 @@ body {
 
 /* HEADER */
 
+#title,
+#description {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
